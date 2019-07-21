@@ -24,7 +24,7 @@ namespace LiveSplit
 #if !DEBUG
                 FiletypeRegistryHelper.RegisterFileFormatsIfNotAlreadyRegistered();
 #endif
-
+                // COUCOU
                 string splitsPath = null;
                 string layoutPath = null;
 
