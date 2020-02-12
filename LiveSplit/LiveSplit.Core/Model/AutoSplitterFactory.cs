@@ -73,7 +73,7 @@ namespace LiveSplit.Model
             try
             {
                 //autoSplitters.Load("https://raw.githubusercontent.com/LiveSplit/LiveSplit/master/LiveSplit.AutoSplitters.DevBuild.xml");
-                autoSplitters.Load("https://raw.githubusercontent.com/LiveSplit/LiveSplit/master/LiveSplit.AutoSplitters.xml");
+                autoSplitters.Load( "https://gist.githubusercontent.com/BenzinOzor/861c5750fcae6b7d75455e72cfea02e7/raw/4a4fa92d23169f7f1e589c516dfc0194585c71bb/LiveSplit.AutoSplitters.xml" );
                 autoSplitters.Save("LiveSplit.AutoSplitters.xml");
             }
             catch (Exception ex)
